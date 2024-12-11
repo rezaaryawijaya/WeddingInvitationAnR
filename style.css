@@ -89,12 +89,18 @@ body {
 }
 
 .story h2,
-.gallery h2,
 .rsvp h2,
 .gifts h2 {
   color: var(--pink);
   font-family: 'Sacramento';
   font-size: 5rem;
+  font-weight: bold;
+}
+
+.gallery h2 {
+  color: var(--pink);
+  font-family: 'Sacramento';
+  font-size: 6rem;
   font-weight: bold;
 }
 
@@ -321,7 +327,9 @@ body {
 }
 
 .gallery {
-  background-color: #f5f5f5;
+  background-image: url(img/Jawa.jpg);
+  background-size: contain, cover;
+  background-position: center;
 }
 
 .rsvp {
